@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>APEX LABS — Donde los datos tocan el asfalto</title>
+  
+  <link rel="icon" type="image/jpg" href="Logo.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Ajuste extra para asegurar que el video local se vea bien */
+    video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html" aria-label="APEX LABS, inicio">
+        <img src="Logo.jpg" alt="Logotipo APEX LABS" style="height: 50px; width: auto;">
+      </a>
+
+      <div class="nav-links">
+        <a href="index.html" class="active">Principal</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+
+      <div class="nav-cta">
+        <a class="btn btn-primary" href="#reserva">Reservar sesión</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero hero-with-strip">
+      <div class="hero-strip" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">Centro de entrenamiento & simulación inmersiva</p>
+          <h1>Donde los datos tocan el asfalto.</h1>
+          <p class="lead">
+            APEX LABS pone simulación de movimiento y telemetría avanzada al alcance de sim-racers, pilotos amateur y aspirantes a profesionales.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#servicio">Ver servicio</a>
+            <a class="btn btn-ghost" href="#media">Ver demo</a>
+          </div>
+
+          <div class="track-chips">
+            <span class="chip">Mónaco</span>
+            <span class="chip">Spa</span>
+            <span class="chip">Silverstone</span>
+            <span class="chip">Montmeló</span>
+          </div>
+
+          <div class="trust-bar">
+            <div class="trust-label">Telemetría · Inmersión · Coaching</div>
+            <div class="trust-track">
+              <div class="trust-fill"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card hero-card-overlay">
+          <div class="hud">
+            <div class="hud-row">
+              <span>Modo</span><strong>APEX ATTACK</strong>
+            </div>
+            <div class="hud-row">
+              <span>Objetivo</span><strong>Mejorar vuelta a vuelta</strong>
+            </div>
+            <div class="hud-row">
+              <span>Señal</span><strong class="pulse">TELEMETRÍA ACTIVA</strong>
+            </div>
+          </div>
+
+          <div class="cockpit">
+            <div class="cockpit-dials">
+              <div class="dial">
+                <span class="dial-label">Fuerza G</span>
+                <div class="dial-bar"><div class="dial-fill dial-fill-g"></div></div>
+              </div>
+              <div class="dial">
+                <span class="dial-label">Inmersión</span>
+                <div class="dial-bar"><div class="dial-fill dial-fill-immersion"></div></div>
+              </div>
+            </div>
+          </div>
+          <p class="fineprint">Estética inspirada en fibra de carbono e ingeniería aplicada.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="servicio">
+      <div class="container">
+        <div class="section-head">
+          <h2>Servicio destacado</h2>
+          <p>Entrenamientos diseñados para mejorar tu rendimiento vuelta a vuelta.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <figure class="card-thumb">
+              <img src="img/sesion.jpg" alt="Persona entrenando" class="card-img">
+              <figcaption class="card-label">Sesión individual</figcaption>
+            </figure>
+            <h3>Apex Telemetry Session (60’)</h3>
+            <p>Sesión guiada con análisis de telemetría profesional.</p>
+            <div class="card-foot">
+              <div class="price"><span class="price-value">79 €</span></div>
+              <a class="btn btn-primary" href="#reserva">Quiero mi sesión</a>
+            </div>
+          </article>
+
+          <article class="card card-accent" id="reserva">
+            <figure class="card-thumb">
+              <img src="img/sesion2.jpg" alt="Simuladores" class="card-img">
+              <figcaption class="card-label">Pack avance</figcaption>
+            </figure>
+            <h3>Pack “La Curva Perfecta”</h3>
+            <p>4 sesiones de entrenamiento progresivo con objetivos reales.</p>
+            <div class="card-foot">
+              <div class="price"><span class="price-value">249 €</span></div>
+              <a class="btn btn-dark" href="contact.html">Reservar pack</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="media">
+      <div class="container">
+        <div class="section-head">
+          <h2>Vídeo y radio</h2>
+        </div>
+        <div class="media-grid">
+          <div class="panel">
+            <div class="embed">
+              <video controls poster="Logo.jpg">
+                <source src="img/Anuncio1.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+              </video>
+            </div>
+          </div>
+          <div class="panel">
+            <h3>Anuncio de radio</h3>
+            <audio controls class="audio">
+              <source src="media/apexlabs-radio.mp3" type="audio/mpeg" />
+            </audio>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="social">
+      <div class="container">
+        <div class="section-head">
+          <h2>Redes sociales</h2>
+          <p>Síguenos para ver telemetría real y consejos de conducción.</p>
+        </div>
+
+        <div class="social-grid">
+          <article class="social-card">
+            <div class="social-icon ig"></div>
+            <h3>Instagram</h3>
+            <p>Highlights de sesiones y clips onboard.</p>
+            <a class="social-link" href="https://www.instagram.com/apexl.abs/" target="_blank" rel="noopener noreferrer">@apexl.abs</a>
+          </article>
+
+          <article class="social-card">
+            <div class="social-icon tk"></div>
+            <h3>TikTok</h3>
+            <p>Tips rápidos de conducción y setups.</p>
+            <a class="social-link" href="https://www.tiktok.com/@apexlabs0" target="_blank" rel="noopener noreferrer">@apexlabs0</a>
+          </article>
+
+          <article class="social-card">
+            <div class="social-icon yt"></div>
+            <h3>YouTube</h3>
+            <p>Análisis de circuitos y comparativas detalladas.</p>
+            <a class="social-link" href="https://www.youtube.com/@Apex-Labs1" target="_blank" rel="noopener noreferrer">Apex Labs</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="footer-brand">APEX LABS</div>
+        <p class="footer-text">Centro de entrenamiento y simulación de motor.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">Sobre mí</a>
+        <a href="contact.html">Contacto</a>
+        <a href="#media">Media</a>
+      </div>
+      <div class="footer-text">
+        <span>© 2026 APEX LABS</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
