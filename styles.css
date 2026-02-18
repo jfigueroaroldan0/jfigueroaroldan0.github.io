@@ -813,3 +813,31 @@ input:focus, select:focus, textarea:focus{
     color: #FF1E3C;
     padding-left: 5px;
 }
+
+.site-header .nav {
+  display: flex !important;
+  align-items: center !important; 
+  padding: 10px 20px !important;
+  height: 70px; 
+  box-sizing: border-box;
+}
+
+.brand {
+  display: flex !important;
+  align-items: center !important;
+  height: 100% !important;
+  overflow: hidden; /* Evita que nada sobresalga */
+}
+
+.brand img {
+  height: 40px !important; 
+  width: auto !important;
+  display: block !important;
+  margin: 0 !important;
+  object-fit: contain;
+}
+
+.site-header {
+  border-bottom: 1px solid rgba(255,255,255,0.1); 
+  background: #000; /* O el color de tu fondo */
+}
